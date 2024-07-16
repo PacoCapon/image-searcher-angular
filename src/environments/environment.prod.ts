@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  unsplashAccessKey: 'YOUR_UNSPLASH_ACCESS_KEY'
 };

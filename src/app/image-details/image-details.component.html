@@ -1,0 +1,7 @@
+<div *ngIf="image" class="image-detail">
+  <img [src]="image.urls.full" [alt]="image.alt_description">
+  <h2>{{image.description || 'No description available'}}</h2>
+  <p><strong>Photographer:</strong> {{image.user.name}}</p>
+  <p><strong>Likes:</strong> {{image.likes}}</p>
+  <a [href]="image.links.html" target="_blank">View on source</a>
+</div>

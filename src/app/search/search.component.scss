@@ -1,0 +1,56 @@
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  mat-form-field {
+    .mat-form-field-appearance-legacy .mat-form-field-label {
+      color: white !important;
+    }
+  }
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  .mat-form-field {
+    margin-right: 20px;
+    .mat-form-field-wrapper {
+      padding-bottom: 0;
+    }
+  }
+  button {
+    padding: 0 40px;
+  }
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  .image-item {
+    cursor: pointer;
+    width: 25%;
+    img {
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.no-results {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: red;
+}
